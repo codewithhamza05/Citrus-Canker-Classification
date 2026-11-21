@@ -1,0 +1,31 @@
+DATA CLEANING REPORT
+
+Images in the dataset: 229
+Canker images: 120
+Healthy images: 109
+Physical samples (different fruits): 116
+
+Unreadable images: 0
+Images without a sample_id: 0
+Images with a wrong label: 0
+Missing feature values: 0
+Blurry images (sharpness below 20): ['H_S099_01.jpg']
+  Decision: looked at it. It is slightly soft but the fruit surface is still visible, so it is KEPT.
+
+Removed before feature extraction (see data/excluded/excluded_log.csv): 21
+  exact duplicate files: 14
+  same fruit found in BOTH class folders (label cannot be trusted): 7
+
+Outliers (5 or more features with |z-score| > 3): 7 images
+  image ids: [128, 142, 121, 132, 1, 124, 131]
+  Decision: looked at them. They are mostly the studio-style healthy photos (small fruit on a
+  white background) and one yellow-green canker fruit. They are real photos, not errors, so they are KEPT.
+
+Train/test split: by sample_id, GroupShuffleSplit(test_size=0.2, random_state=42)
+  train: 173 images from 92 fruits
+  test:  56 images from 24 fruits
+  test set has 36 Canker and 20 Healthy images
+  fruits in both sets: 0
+
+Label encoding: Canker = 1, Healthy = 0
+Scaling: StandardScaler inside the model pipeline (fitted on training data only)

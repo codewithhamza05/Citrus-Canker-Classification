@@ -1,0 +1,50 @@
+===== Logistic Regression =====
+              precision    recall  f1-score   support
+
+     Healthy       0.62      0.75      0.68        20
+      Canker       0.84      0.75      0.79        36
+
+    accuracy                           0.75        56
+   macro avg       0.73      0.75      0.74        56
+weighted avg       0.77      0.75      0.75        56
+
+===== SVM =====
+              precision    recall  f1-score   support
+
+     Healthy       0.69      0.90      0.78        20
+      Canker       0.93      0.78      0.85        36
+
+    accuracy                           0.82        56
+   macro avg       0.81      0.84      0.82        56
+weighted avg       0.85      0.82      0.82        56
+
+===== Decision Tree =====
+              precision    recall  f1-score   support
+
+     Healthy       0.61      0.95      0.75        20
+      Canker       0.96      0.67      0.79        36
+
+    accuracy                           0.77        56
+   macro avg       0.79      0.81      0.77        56
+weighted avg       0.84      0.77      0.77        56
+
+===== Random Forest =====
+              precision    recall  f1-score   support
+
+     Healthy       0.64      0.90      0.75        20
+      Canker       0.93      0.72      0.81        36
+
+    accuracy                           0.79        56
+   macro avg       0.79      0.81      0.78        56
+weighted avg       0.83      0.79      0.79        56
+
+===== XGBoost =====
+              precision    recall  f1-score   support
+
+     Healthy       0.71      0.85      0.77        20
+      Canker       0.91      0.81      0.85        36
+
+    accuracy                           0.82        56
+   macro avg       0.81      0.83      0.81        56
+weighted avg       0.84      0.82      0.82        56
+

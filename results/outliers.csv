@@ -1,0 +1,8 @@
+image_id,sample_id,label,n_extreme_features
+128,S054,Healthy,9
+142,S062,Healthy,7
+121,S048,Healthy,6
+132,S052,Healthy,6
+1,S001,Canker,5
+124,S051,Healthy,5
+131,S052,Healthy,5

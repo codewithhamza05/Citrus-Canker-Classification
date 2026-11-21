@@ -1,0 +1,9 @@
+{
+  "pca_pc1_percent": 28.01,
+  "pca_pc2_percent": 20.61,
+  "pca_pc1_plus_pc2_percent": 48.61,
+  "pca_components_for_90_percent": 9,
+  "kmeans_k": 2,
+  "kmeans_adjusted_rand_index": 0.039,
+  "kmeans_silhouette_k2": 0.4154
+}

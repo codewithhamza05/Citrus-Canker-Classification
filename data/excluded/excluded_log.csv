@@ -1,0 +1,22 @@
+file,label,reason
+citrus-canker__citrus-canker (17).jpg,Canker,label conflict: same fruit is in both class folders (found by eye)
+citrus-canker__citrus-canker (54).jpg,Canker,label conflict: same fruit is in both class folders (found by eye)
+citrus-canker__citrus-canker (83).jpg,Canker,label conflict: same fruit is in both class folders (found by eye)
+healthy__h(4).jpg,Healthy,exact duplicate of h(3).jpg
+healthy__h(5).jpg,Healthy,exact duplicate of h(3).jpg
+healthy__h(6).jpg,Healthy,exact duplicate of h(3).jpg
+healthy__h(11).jpg,Healthy,exact duplicate of h(3).jpg
+healthy__h(14).png,Healthy,exact duplicate of h(13).png
+healthy__h(15).png,Healthy,exact duplicate of h(13).png
+healthy__h(17).png,Healthy,exact duplicate of h(16).png
+healthy__h(42).jpg,Healthy,label conflict: same fruit is in both class folders (found by eye)
+healthy__h(65).jpg,Healthy,exact duplicate of h(3).jpg
+healthy__h(73).png,Healthy,exact duplicate of h(12).png
+healthy__h(85).jpg,Healthy,exact duplicate of h(39).jpg
+healthy__h(122).png,Healthy,exact duplicate of h(22).png
+healthy__h(123).png,Healthy,exact duplicate of h(24).png
+healthy__h(124),Healthy,exact duplicate of h(36).jpg
+healthy__h(125).jpg,Healthy,exact duplicate of h(31).jpg
+citrus-canker__citrus-canker (11).jpg,Canker,label conflict: same fruit is in both class folders
+citrus-canker__citrus-canker (76).jpg,Canker,label conflict: same fruit is in both class folders
+healthy__h(68).jpg,Healthy,label conflict: same fruit is in both class folders
